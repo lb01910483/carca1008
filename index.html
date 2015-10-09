@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content = "height = device-height, width = device-width, user-scalable = no" /> 
+	<title>CamBot</title>
+	<script type="text/javascript" src="C:/Users/eric/Desktop/raspberry 備份/webiopi1/htdocs/webiopi.js"></script>
+	<script type="text/javascript" src="E:\raspberry 備份\webiopi1\htdocs\app\gpio-list/car.js" >
+	
+	</script>
+	<link rel=stylesheet type="text/css" href="car.css">
+</head>
+<body>
+	<div id="content">
+		<!--<img width="460" height="260" src="http://192.168.1.106:8080/?action=stream"><br/>-->
+		<img src="E:\raspberry 備份\webiopi1\htdocs\app\gpio-list/red.jpg" alt="hello">
+		
+		<img src="play/rsz_top.png" onclick="go_forward()" id="top">
+
+		<img src="play/rsz_left.png" onclick="turn_left()" id="left">
+
+		<img src="play/rsz_down.png" onclick="go_backward()" id="down">
+
+		<img src="play/rsz_right.png" onclick="turn_right()"  id="right">
+
+		<img src="play/rsz_target.png"   id="target">
+		<img src="E:\raspberry 備份\webiopi1\htdocs\app\gpio-list/stop_opt.png" onclick="attack_stop()" id="stop">
+		<img src="E:\raspberry 備份\webiopi1\htdocs\app\gpio-list/slow.png" onclick="attack_back()" id="back">
+		<img src="E:\raspberry 備份\webiopi1\htdocs\app\gpio-list/rot_opt.png" onclick="attack_turn()" id="turn">
+	</div>
+</body>
+</html>
