@@ -15,7 +15,9 @@
 	function turn_left() {
 		webiopi().callMacro("turn_left");
 	}
-		
+	function stop() {
+		webiopi().callMacro("stop");
+	}
 	function attack_back() {
 		webiopi().callMacro("attack_back");
 	}
@@ -26,3 +28,8 @@
 		webiopi().callMacro("attack_turn");
 	}		
 
+    window.oncontextmenu = function(event) {
+     event.preventDefault();
+     event.stopPropagation();
+     return false;
+};
