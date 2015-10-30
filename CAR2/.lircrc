@@ -1,0 +1,63 @@
+begin
+	prog= irexec
+	button=KEY_POWER
+	config= echo 'You Pressed POWER'
+
+end
+begin
+	prog= irexec
+	button=KEY_VOLUMEUP
+	config= echo 'You Pressed VOLUMEUP'
+
+end
+begin
+	prog= irexec
+	button=KEY_VOLUMEDOWN
+	config= echo 'You Pressed VOLUMEDOWN'
+
+end
+begin
+	prog= keys
+	button=KEY_POWER
+	config= echo 'You Pressed POWER'
+
+end
+
+
+begin
+	prog= myprogram
+	button=KEY_POWER
+	config=KEY_POWER
+
+end
+begin
+	prog= myprogram
+	button=KEY_VOLUMEUP
+	config=KEY_VOLUMEUP
+
+end
+
+begin
+	prog= myprogram
+	button=KEY_VOLUMEDOWN
+	config=KEY_VOLUMEDOWN
+
+end
+begin
+	prog= myprogram
+	button=KEY_1
+	config=KEY_1
+
+end
+begin
+	prog= myprogram
+	button=KEY_2
+	config=KEY_2
+
+end
+begin
+	prog= myprogram
+	button=KEY_3
+	config=KEY_3
+
+end
