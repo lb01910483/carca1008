@@ -77,13 +77,16 @@ img{
 	margin-left: 0px;
 	}
 #weapon1{
-	margin-top: 140px;
-	margin-left: 300px;
+	margin-top: 100px;
+	margin-left: 252px;
+	width:90px;
+
 	}
 
 #weapon2{
-	margin-top: 170px;
-	margin-left: 335px;
+	margin-top: 75px;
+	margin-left: 247px;
+	width: 90px;
 	}
 #weapon3{
 	margin-top: 155px;

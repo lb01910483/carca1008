@@ -59,55 +59,38 @@ img{
 	position: absolute;
 	display: inline-block;
 	}	
-#top{	
-	margin-top: 100px;
-	margin-left: 30px; 
-	}
 
-#down{
-	margin-top: 160px;
-	margin-left: 30px; 	
-	}
-#right{
-	margin-top: 130px;
-	margin-left: 60px;
-	}
-#left{
-	margin-top: 130px;
-	margin-left: 0px;
-	}
-#weapon1{
-	margin-top: 100px;
-	margin-left: 252px;
-	}
-#weapon2{
-	margin-top: 75px;
-	margin-left: 247px;
-	width: 90px;
-	}
-#weapon3{
-	margin-top: 155px;
-
-	margin-left: 350px;
-
-	}
-#weapon{
-
-	margin-top: 150px;
-	margin-left: 216px;
-
-
-}
-#target{
-
-	margin-left: 150px;
-
-	margin-top: 60px;
-
-}
 div{
 
 	display: inline-block;
 	position: static;
 
 	}
+
+#car1{
+	position: absolute;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 110px;
+	-webkit-animation-name: dropHeader;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 6s;
+    -webkit-transform-origin: top left;
+}
+@-webkit-keyframes dropHeader {
+    0% {
+        -webkit-transform: translate(0px, 0px);
+    }
+
+    100% {
+        -webkit-transform:  rotate(270deg);
+    }
+
+    
+}
+#car2{
+
+
+
+}

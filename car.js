@@ -37,16 +37,16 @@
 		  var c=Math.floor(Math.random() * 3)+ 1;
 		  if(c === 1)
 		  {
-		  	document.getElementById("container").innerHTML='<input type="image" src="play/rsz_weapon1.png" ontouchstart="attack_back()"  id="weapon1" >';
+		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_1.svg"  ontouchstart="attack_back()"  id="weapon1" >';
 			}
 		  else if (c === 2)
 		  {
 
-		  	document.getElementById("container").innerHTML='<input type="image" src="play/rsz_weapon2.png" ontouchstart="attack_stop()"  id="weapon1" >';
+		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_2.svg"   ontouchstart="attack_stop()"  id="weapon1" >';
 		  }
 		  else
 		  {
-		  	document.getElementById("container").innerHTML='<input type="image" src="play/rsz_weapon3.png" ontouchstart="attack_turn()"  id="weapon1"  >';
+		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_3.svg"  ontouchstart="attack_turn()"  id="weapon1"  >';
 		  }
 	}
     window.oncontextmenu = function(event) {
@@ -76,12 +76,12 @@ turns1=10+Math.floor((Math.random() * 10))
 
 for (a=0;a<turns1;a++)
 
-	{ document.getElementById("container").innerHTML='<input type="image"  src="play/rsz_weapon' + slotitem[a % 3]+'.png"  ontouchstart="'+weapon[a % 3]+'"  id="weapon1"  >';} 
+	{ document.getElementById("container").innerHTML='<input type="image"  src="play/test_' + slotitem[a % 3]+'.svg"   ontouchstart="'+weapon[a % 3]+'"  id="weapon1"  >';} 
 
 
 b++;
 
-if (b<25) {setTimeout("spinem(b);",50);} 
+if (b<25) {setTimeout("spinem(b);",200);} 
 
 }
 
