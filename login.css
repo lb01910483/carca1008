@@ -74,23 +74,52 @@ div{
 	margin-left: 110px;
 	-webkit-animation-name: dropHeader;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in;
-    -webkit-animation-duration: 6s;
+ 
+    -webkit-animation-duration: 0.5s;
     -webkit-transform-origin: top left;
 }
 @-webkit-keyframes dropHeader {
-    0% {
-        -webkit-transform: translate(0px, 0px);
-    }
+ 0% { opacity: 0; }
 
-    100% {
-        -webkit-transform:  rotate(270deg);
-    }
-
+  100% { opacity: 1; }
     
 }
-#car2{
+#a1{
 
+    position: absolute;
+    display: inline-block;
+    margin-top: 203px;
+    margin-left: 135px;
+    -webkit-animation-name: dropHeader;
+    -webkit-animation-iteration-count: infinite;
 
+    -webkit-animation-duration: 1.5s;
+}
 
+#c1{
+
+        position: absolute;
+    display: inline-block;
+
+    margin-top: 35px;
+
+    margin-left: 150px;
+
+        -webkit-animation-name:rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-duration: 9s;
+}
+@-webkit-keyframes rotate {
+  0% { -webkit-transform: rotate(0deg); }
+
+  100% { -webkit-transform: rotate(-360deg); }
+}
+#c2{
+
+    position: absolute;
+    display: inline-block;
+        margin-top: 50px;
+
+    margin-left: 122px;
 }

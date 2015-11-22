@@ -81,7 +81,7 @@ for (a=0;a<turns1;a++)
 
 b++;
 
-if (b<25) {setTimeout("spinem(b);",200);} 
+if (b<25) {setTimeout("spinem(b);",100);} 
 
 }
 
