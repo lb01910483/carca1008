@@ -37,16 +37,16 @@
 		  var c=Math.floor(Math.random() * 3)+ 1;
 		  if(c === 1)
 		  {
-		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_1.svg"  ontouchstart="attack_back()"  id="weapon1" >';
+		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_1.svg"  ontouchstart="attack_stop()"  id="weapon1" >';
 			}
 		  else if (c === 2)
 		  {
 
-		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_2.svg"   ontouchstart="attack_stop()"  id="weapon1" >';
+		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_2.svg"   ontouchstart="attack_turn()"  id="weapon1" >';
 		  }
 		  else
 		  {
-		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_3.svg"  ontouchstart="attack_turn()"  id="weapon1"  >';
+		  	document.getElementById("container").innerHTML='<input type="image" src="play/test_3.svg"  ontouchstart="attack_back()"  id="weapon1"  >';
 		  }
 	}
     window.oncontextmenu = function(event) {
