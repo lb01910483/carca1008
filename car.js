@@ -21,17 +21,18 @@
 	}
 	function attack_back() {
 		webiopi().callMacro("attack_back");
-		spim();
+		document.getElementById("container").innerHTML='';
+		setTimeout("spim();",10000);
 	}
 	function attack_stop() {
 		webiopi().callMacro("attack_stop");
-
-		spim();
+		document.getElementById("container").innerHTML='';
+		setTimeout("spim();",10000);
 	}
 	function attack_turn() {
 		webiopi().callMacro("attack_turn");
-
-		spim();
+		document.getElementById("container").innerHTML='';
+		setTimeout("spim();",10000);
 	}		
 	function change(){
 		  var c=Math.floor(Math.random() * 3)+ 1;
