@@ -86,3 +86,8 @@ if (b<25) {setTimeout("spinem(b);",100);}
 
 }
 
+window.onload = function(){
+    setTimeout(function(){
+        window.scrollTo(0, 1);
+    }, 100);
+}
